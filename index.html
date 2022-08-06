@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wedding Invitation</title>
+</head>
+<body>
+    <h1>Create Your Beautiful Wedding Invitation </h1><br>
+    <div id="btns">
+        <button id="btn1" onclick="image1()">Dreamy Hues</button>
+        <button id="btn2" onclick="image2()">Mod Mood</button>
+        <button id="btn3" onclick="image3()">Love & Light</button>
+        <button id="btn4" onclick="image4()">Classical</button>
+        
+    </div>
+    <div id="container">
+       
+        <div id="form">
+        
+            <form>
+                <label for="firstName">Enter your first name:  </label><br>
+                <input type="text" id="firstName" name="firstName"><br><br>
+    
+                <label for="secondName">Enter your second name:</label><br>
+                <input type="text" id="secondName" name="secondName"><br><br>
+    
+                <label for="lastName">Enter your last name:</label><br>
+                <input type="text" id="lastName" name="lastName"><br><br>
+    
+                <label for="date">Date:</label><br>
+                <input type="date" id="date" name="date"><br><br>
+    
+                <label for="location">Location:</label><br>
+                <input type="text" id="location" name="location"><br><br>
+
+                <label for="time">Time:</label><br>
+                <input type="time" id="time" name="time"><br><br>
+            </form>
+            <div id="myreset">
+            <button id="reset" onclick="myReset()">Reset</button>
+            </div>
+        </div>
+        
+            <div id="pic">
+                <img src="myImage1.jpg" id="myImage" alt="invitations">
+                
+            </div>
+                
+            
+            <div id="displayMessage">
+                <p class="note"> You are cordially invited to the<br>wedding of</p><br><br>
+                <span id="data1"></span><br>
+                <p>&</p>
+                <span id="data2"></span><br>
+                <span id="data3"></span><br><br>
+                <span id="data4"></span><br>
+                <span id="data5"></span><br>
+                <span id="data6"></span><br>
+    
+            </div>
+            
+        
+            
+        </div>
+       
+    <!-- </div> -->
+    <script title ="text/javascript" src="script.js"></script>
+</body>
+</html>
