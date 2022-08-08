@@ -21,7 +21,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
-    margin: 50px auto;
+    margin: 30px auto;
     /* width: 800px; */
    left: 20%;
     
