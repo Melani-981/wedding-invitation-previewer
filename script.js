@@ -20,7 +20,7 @@ lastName.addEventListener('keyup',(e) => {
     
 })
 let date = document.querySelector('#date')
-date.addEventListener('keyup',(e) => {
+date.addEventListener('change',(e) => {
     let data4 = document.querySelector('#data4')
     data4.innerHTML = date.value
     
@@ -34,11 +34,14 @@ place.addEventListener('keyup',(e) => {
 })
 
 let time = document.querySelector('#time')
-time.addEventListener('keyup',(e) => {
+time.addEventListener('change',(e) => {
     let data6 = document.querySelector('#data6')
     data6.innerHTML = time.value
     
 })
+
+
+
 function myReset() {
     location.reload()
 }
